@@ -21,7 +21,7 @@ import LightDarkToggle from "./components/LightDarkToggle"
 
 function App() {
   const [coordinates, setCoords] = useState<Coords>({ lat: 50, lon: 45 })
-  const [location, setLocation] = useState("Tokyo")
+  const [location, setLocation] = useState("Bangalore")
   const [mapType, setMapType] = useState("clouds_new")
   const [isSidePanelOpen, setIsSidePanelOpen] = useState(false)
 
